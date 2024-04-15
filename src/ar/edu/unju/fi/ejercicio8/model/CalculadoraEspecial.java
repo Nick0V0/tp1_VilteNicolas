@@ -6,14 +6,17 @@ public class CalculadoraEspecial{
 	public int getN() {
 		return n;
 	}
+	
 
 	public void setN(int n) {
 		this.n = n;
 	}
-
-	public CalculadoraEspecial(int n) {
-		this.n = n;
+	
+	public CalculadoraEspecial() {
 	}
+
+
+
 	
 	
 	public int  calcularSumatoria() {

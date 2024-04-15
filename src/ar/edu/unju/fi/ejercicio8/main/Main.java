@@ -10,7 +10,8 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Ingrese el valor numérico entero de n:");
 		int num = scanner.nextInt();
-		CalculadoraEspecial Calculadora = new CalculadoraEspecial(num);
+		CalculadoraEspecial Calculadora = new CalculadoraEspecial();
+		Calculadora.setN(num);
         System.out.println("La sumatoria es: " + Calculadora.calcularSumatoria());
         System.out.println("La productoria es: " + Calculadora.CalcularProductoria());
 	}
