@@ -4,8 +4,8 @@ public class Empleado {
     private String Nombre;
     private String Legajo;
     private double Salario;
-    final double SalarioMin = 210000.00;
-    final double Meritos = 20000.00;
+    private final double SalarioMin = 210000.00;
+    private final double Meritos = 20000.00;
     
 	public Empleado(String nombre, String legajo, double salario) {
 		this.Nombre = nombre;
