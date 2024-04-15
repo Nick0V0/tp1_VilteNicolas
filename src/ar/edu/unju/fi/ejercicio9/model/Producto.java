@@ -29,12 +29,11 @@ public class Producto {
 	public void setDescuento(int descuento) {
 		this.descuento = descuento;
 	}
-	public Producto(String nombre, String codigo, double precio, int descuento) {
-		this.nombre = nombre;
-		this.codigo = codigo;
-		this.precio = precio;
-		this.descuento = descuento;
+	public Producto() {
 	}
-
+    public double calcularDescuento() {
+        return this.precio - (this.precio * this.descuento / 100.0);
+    }
+	
 	
 }
